@@ -7,7 +7,7 @@ Examr Stands for Exam + Resources Where We Ensures That All Your Resources Stays
 ## Release
 
 
-[![Release](https://img.shields.io/github/v/release/examr/examrapp?include_prereleases&style=flat-square)](https://github.com/examr/examrapp/releases)
+[![Release](https://img.shields.io/github/v/release/examr/examr?include_prereleases&style=flat-square)](https://github.com/examr/examr/releases)
 
 
 
