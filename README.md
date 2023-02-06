@@ -2,16 +2,15 @@
 # Examr Official
 
 
-### Website 
+### Website 🌐
 Under Development
 
 
-#### Description
+#### Description 
 An Online Study Material Management Tool
 
 
-## Release
-
+## Release 🎪
 
 [![Release](https://img.shields.io/github/v/release/examr/examr?include_prereleases&style=flat-square)](https://github.com/examr/examr/releases)
 
@@ -23,26 +22,27 @@ An Online Study Material Management Tool
 ![App Screenshot](https://i.ibb.co/2Pq8mkm/iphone-multiple-screens-mockup.png)
 
 
-## FAQ
+## Tech Stack 🛠
 
-#### How Examr Works?
+**Client:** Kotlin
 
-Examr Basically is a Community Based Platform Where Majority of Data Uploaded Via Users. Uploading Posts Should Have to Follow The Post Policy Mentioned.
+**Server:** Firebase
 
-#### How Examr Functions at Backend?
 
-This Project Mainly Divided into Three Parts -
+## Run Locally
 
-    1. Data
-    2. Representation
-    3. Maintenance
+Download
 
-    Data - Examr is user centric community that mainly functions on user data.
+```bash
+  download latest release apk
+```
+Install
 
-    Representation - Examr is user-based platform, so data is represented as basic function.
+```bash
+  install in your device
+```
 
-    Maintenance- Data and Representation is totally maintained by Examr admins.
-
+You are good to go
 
 ## License
 
@@ -52,4 +52,8 @@ This Project Mainly Divided into Three Parts -
 ## Support
 
 For support, email help.examr+contact@gmail.com.
+
+## Authors
+
+- [@heydarklord](https://www.github.com/heydarklord)
 
