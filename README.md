@@ -1,13 +1,13 @@
 
-# Examr Official (Old Exam Papers of JNVU (Jai Narayan Vyas University Jodhpur))
+# Examr Official
 
 
-#Website 
+### Website 
 Under Development
 
 
-
-Examr Stands for Exam + Resources Where We Ensures That All Your Resources Stays at One Place.
+#### Description
+An Online Study Material Management Tool
 
 
 ## Release
