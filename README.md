@@ -56,4 +56,4 @@ For support, email help.examr+contact@gmail.com.
 ## Authors
 
 - [@heydarklord](https://www.github.com/heydarklord)
-
+- [@Himanshu Shakya](https://www.github.com/himanshushakya18)
