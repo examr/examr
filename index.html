@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div id="navbar">
+            <svg class="logo-icon logo" width="45" height="65" viewBox="0 0 45 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.85227e-08 23.2083V59.4276C-7.01083e-05 60.1593 0.129209 60.8839 0.380455 61.56C0.631701 62.2361 0.999991 62.8504 1.46429 63.3678C1.92859 63.8853 2.47981 64.2957 3.08646 64.5757C3.69312 64.8557 4.34332 64.9998 4.99994 64.9997H40.0001C40.6567 64.9999 41.307 64.8559 41.9137 64.5759C42.5204 64.296 43.0716 63.8856 43.5359 63.3681C44.0003 62.8506 44.3685 62.2363 44.6198 61.5602C44.871 60.884 45.0002 60.1594 45 59.4276V23.2083H2.85227e-08Z" fill="#724FFF"/>
+                <path d="M45 41.7914L45 5.57213C45.0001 4.84036 44.8708 4.11575 44.6195 3.43967C44.3683 2.76359 44 2.1493 43.5357 1.63186C43.0714 1.11442 42.5202 0.703987 41.9135 0.423988C41.3069 0.14399 40.6567 -8.39233e-05 40.0001 -7.62939e-06L4.99995 -7.62939e-06C4.3433 -0.000202179 3.69304 0.143791 3.08634 0.423748C2.47964 0.703705 1.92839 1.11414 1.46406 1.6316C0.999741 2.14906 0.631451 2.7634 0.380241 3.43953C0.129036 4.11566 -0.000171661 4.84033 3.8147e-06 5.57213L3.8147e-06 41.7914L45 41.7914Z" fill="#724FFF"/>
+                <path d="M0 20.4223V56.6416C0.00197735 58.1188 0.52939 59.5348 1.46663 60.5793C2.40388 61.6238 3.67448 62.2116 4.99994 62.2138H40.0001C41.3256 62.2117 42.5962 61.624 43.5335 60.5795C44.4708 59.535 44.9982 58.1188 45 56.6416V20.4223H0Z" fill="#ECF0F1"/>
+                <path d="M0 17.6361V53.8557C0.00190692 55.3329 0.529297 56.7489 1.46655 57.7935C2.40381 58.838 3.67446 59.4257 4.99994 59.4279H40.0001C41.3256 59.4259 42.5963 58.8382 43.5336 57.7936C44.4709 56.7491 44.9982 55.333 45 53.8557V17.6361H0Z" fill="#BDC3C7"/>
+                <path d="M0 14.8499V51.0695C0.00197735 52.5467 0.52939 53.9627 1.46663 55.0072C2.40388 56.0517 3.67448 56.6394 4.99994 56.6416H40.0001C41.3256 56.6397 42.5963 56.052 43.5336 55.0074C44.4709 53.9629 44.9982 52.5467 45 51.0695V14.8499H0Z" fill="#ECF0F1"/>
+                <path d="M4.99994 3.37086e-08C3.67387 3.37086e-08 2.40212 0.622554 1.46445 1.73071C0.526778 2.83886 2.85227e-08 4.34184 2.85227e-08 5.909V59.091C-7.01083e-05 59.867 0.129209 60.6354 0.380455 61.3524C0.631701 62.0693 0.999991 62.7208 1.46429 63.2695C1.92859 63.8182 2.47981 64.2534 3.08646 64.5504C3.69312 64.8473 4.34332 65.0001 4.99994 65H10.0001V62.0453H6.24999C5.75753 62.0453 5.26989 61.9307 4.81492 61.708C4.35995 61.4853 3.94655 61.1588 3.59833 60.7473C3.2501 60.3358 2.97388 59.8472 2.78542 59.3095C2.59697 58.7718 2.49997 58.1955 2.49997 57.6135C2.49997 57.0315 2.59697 56.4552 2.78542 55.9175C2.97388 55.3798 3.2501 54.8913 3.59833 54.4797C3.94655 54.0682 4.35995 53.7417 4.81492 53.519C5.26989 53.2963 5.75753 53.1817 6.24999 53.1817H40.0001C40.6567 53.1819 41.307 53.0292 41.9137 52.7323C42.5204 52.4354 43.0716 52.0002 43.5359 51.4514C44.0003 50.9027 44.3686 50.2512 44.6198 49.5342C44.871 48.8172 45.0002 48.0487 45 47.2727V5.909C45.0001 5.133 44.8708 4.36458 44.6195 3.64763C44.3683 2.93068 44 2.27924 43.5357 1.73052C43.0714 1.1818 42.5202 0.746553 41.9135 0.449627C41.3069 0.152702 40.6567 -8.28551e-05 40.0001 3.37086e-08H4.99994Z" fill="#724FFF"/>
+                <path d="M12.5 3.70563V53.8554H40.0001C40.6567 53.8556 41.307 53.7116 41.9137 53.4317C42.5204 53.1517 43.0716 52.7413 43.536 52.2238C44.0003 51.7064 44.3686 51.092 44.6198 50.4159C44.871 49.7398 45.0002 49.0151 45 48.2833V9.27776C45.0001 8.54599 44.8709 7.82135 44.6196 7.14526C44.3684 6.46916 44.0001 5.85485 43.5358 5.33741C43.0715 4.81996 42.5203 4.40953 41.9136 4.12954C41.3069 3.84956 40.6567 3.70551 40.0001 3.70563H12.5Z" fill="#EAE7F5"/>
+            </svg>
+            <span id="yearCount">2023</span>
+        </div>
+    </section>
+
+    <section id="hero-section">
+       <h1 id="logo">Examr</h1> 
+       <p id="logo-para">Explore Examr, the ultimate source for free educational content and previous test papers! Thrive in your academic quest with our exceptional learning center.</p>
+       <button id="dive-in" onclick="launchSoon()">Div in now</button>
+    </section>
+
+    <section id="app-section">
+        <div class="app-desc">
+            <h1>Our Examr app</h1>
+            <p>Discover a limitless realm of tailored educational materials, exclusively for college learners. Become a member of Examr now to conquer tests like an expert!</p>
+            <div class="dwn-section">
+                <button class="dwn-btns" id="dwn-app" onclick="appDownload()">Download app</button>
+                <button class="dwn-btns" id="use-web" onclick="launchSoon()">Use web version</button>
+            </div>
+        </div>
+        <div class="phn-con">
+            <img src="images/mobile.png" alt="">
+            <video autoplay loop muted src="videos/Record_2023-06-14-11-26-15.mp4" ></video>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="fe">
+            <img src="icons/book 2.png" alt="">
+            <h1>250 +</h1>
+            <h3>Study Notes</h3>
+        </div>
+        <div class="fe">
+            <img src="icons/paper 2.png" alt="" height=67px>
+            <h1>100 +</h1>
+            <h3>Past Papers</h3>
+        </div>
+        <div class="fe">
+            <img src="icons/happy user 2.png" alt="" height=67px>
+            <h1>500 +</h1>
+            <h3>Happy Users</h3>
+        </div>
+    </section>
+
+    <section id="team">
+        <h4>Created by</h4>
+        <h1>Top students collaborate to create this outstanding educational platform.</h1>
+        <div id="members">
+            <div class="team-con" id="member-1">
+                <img src="images/210831878_602579504002915_3229034432112008848_n (1).jpg" alt="">
+                <h3 id="names">Gauri Shankar</h3>
+                <h4 id="role">Founder</h4>
+            </div>
+            <div class="team-con" id="member-2">
+                <img src="images/IMG_20221009_112308.jpg" alt="">
+                <h3 id="names">Mayank Singh</h3>
+                <h4 id="role">Web Dev & UI/UX</h4>
+            </div>
+            <div class="team-con" id="member-3">
+                <img src="images/himanshu.jpeg" alt="">
+                <h3 id="names">Himanshu Shakya</h3>
+                <h4 id="role">App Dev</h4>
+            </div>
+            <div class="team-con" id="member-4">
+                <img src="images/IMG_20221009_112308.jpg" alt="">
+                <h3 id="names">Dhruv Bhati</h3>
+                <h4 id="role">Designer</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h1>Frequently Asked Questions</h1>
+        <div class="qna">
+            <div class="questions" id="q1">
+                <h2>How to access materials?</h2>
+                <p>Simply sign up and browse through our extensive library of free academic resources.</p>
+            </div>
+            <div class="questions" id="q2">
+                <h2>Are old papers included?</h2>
+                <p>Yes! We have a vast collection of previous exams to help you practice and prepare.</p>
+            </div>
+            <div class="questions" id="q3">
+                <h2>Is membership free?</h2>
+                <p>Absolutely! Examr is dedicated to providing essential study materials at no cost.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="social">
+            <img src="icons/github.png" alt="">
+            <img src="icons/facebook.png" alt="">
+            <a href="https://instagram.com/bmayanksingh?igshid=MzNlNGNkZWQ4Mg=="><img id="insta" src="icons/instagram.png" alt=""></a>
+            <img src="icons/linkedin.png" alt="">
+            <img src="icons/twitter.png" alt="">
+        </div>
+        <p>© Examr</p>
+        <p>Since June 2023</p>
+    </section>
+
+    <script>
+        const launchSoon = () => {
+            location.href = "launching-soon.html";
+        }
+        const appDownload = () => {
+            location.href = "https://github.com/examr/examr/releases/download/1.2/app-release.apk";
+        }
+    </script>
+</body>
+</html>

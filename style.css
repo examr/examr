@@ -1,0 +1,1114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+*{
+    --color-theme: #7251B5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+#header{
+    position: sticky;
+    padding: 10px 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f2f2f2;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yearCount{
+    color: var(--color-theme);
+}
+
+#hero-section h1{
+    padding: 30px 60px;
+    width: fit-content;
+    margin: auto;
+    font-size: 60px;
+    color: var(--color-theme);
+    text-align: center;
+}
+
+#logo-para{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 60px;
+    font-size: 18px;
+    color: var(--color-theme);
+    font-weight: 500;
+}
+
+#dive-in{
+    display: block;
+    padding: 10px 60px;
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#app-section{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-desc{
+    width: 50%;
+    background-color: var(--color-theme);
+    padding: 40px 30px;
+    border-radius: 50px;
+    z-index: 10;
+    border: 0;
+    box-shadow: 4px 4px 15px rgba(28, 28, 28, 0.4);
+}
+.app-desc h1{
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.app-desc p{
+    min-height: 150px;
+    font-size: 20px;
+    color: #fff;
+    padding: 30px 0;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.dwn-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dwn-btns{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+#dwn-app{
+    color: #fff;
+    background-color: #000;
+}
+
+#use-web{
+    color: #000;
+}
+
+#use-web:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.phn-con{
+    position: relative;
+    width: fit-content;
+}
+
+.phn-con video{
+    position: relative;
+    top: 15px;
+    height: 615px;
+    width: 309px;
+    border-radius: 60px;
+}
+
+.phn-con img{
+    z-index: 2;
+    position: absolute;
+}
+
+#features{
+    padding: 40px 60px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+#features .fe{
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+    background-color: #DBCAE3;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    text-align: center;
+    margin: 30px;
+}
+
+#features .fe img{
+    height: 67px;
+    width: 67px;
+}
+
+#features .fe h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#features .fe h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#team h4, #team h1{
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#team h4{
+    font-weight: 500;
+}
+
+#team h1{
+    color: var(--color-theme);
+}
+
+#team #members{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    padding: 15px 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #DBCAE3;
+}
+
+.team-con{
+    height: fit-content;
+    width: 178px;
+    margin: 20px 30px;
+}
+
+.team-con img{
+    height: 178px;
+    width: 178px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.team-con h3, .team-con h4{
+    padding: 10px 0px 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+#faq{
+    background-color: var(--color-theme);
+    color: #fff;
+    padding: 10px 60px;
+
+}
+
+#faq h1{
+    padding: 25px 0px;
+    min-width: 30%;
+}
+
+#faq .qna .questions{
+    min-width: 200px;
+    width: 30%;
+    margin: 10px;
+}
+
+#faq .qna .questions h2{
+    padding: 10px 0px;
+}
+
+#faq .qna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer{
+    background-color: var(--color-theme);
+    padding: 20px 60px 5px;
+}
+
+#footer #insta{
+    height: 40px;
+}
+
+#footer .social{
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+#footer .social img{
+    height: 30px;
+    cursor: pointer;
+}
+
+#footer p{
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2%;
+}
+
+
+/* Width below 1190 */
+@media (max-width: 1190px) {
+#header{
+    position: sticky;
+    padding: 8px 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f2f2f2;
+}
+
+.logo{
+    height: 40px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yearCount{
+    color: var(--color-theme);
+    font-size: 14px;
+}
+
+#hero-section h1{
+    padding: 30px 60px;
+    width: fit-content;
+    margin: auto;
+    font-size: 60px;
+    color: var(--color-theme);
+    text-align: center;
+}
+
+#logo-para{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 50px;
+    font-size: 18px;
+    color: var(--color-theme);
+    font-weight: 500;
+}
+
+#dive-in{
+    display: block;
+    padding: 10px 60px;
+    margin: auto;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#app-section{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.app-desc{
+    width: 50%;
+    background-color: var(--color-theme);
+    padding: 35px 25px;
+    border-radius: 60px;
+    z-index: 10;
+    border: 0;
+    box-shadow: 4px 4px 15px rgba(28, 28, 28, 0.4);
+}
+
+.app-desc h1{
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.app-desc p{
+    min-height: 150px;
+    font-size: 16px;
+    color: #fff;
+    padding: 30px 0;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+.dwn-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dwn-btns{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#dwn-app{
+    color: #fff;
+    background-color: #000;
+}
+
+#use-web{
+    color: #000;
+}
+
+#use-web:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.phn-con{
+    position: relative;
+    width: fit-content;
+}
+
+.phn-con video{
+    position: relative;
+    top: 15px;
+    height: 615px;
+    width: 309px;
+    border-radius: 60px;
+}
+
+.phn-con img{
+    z-index: 2;
+    position: absolute;
+}
+
+#features .fe{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-color: #DBCAE3;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    margin: 30px;
+}
+
+#features .fe img{
+    height: 60px;
+    width: 60px;
+}
+
+#features .fe h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#features .fe h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#team h4, #team h1{
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#team h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#team h1{
+    color: var(--color-theme);
+    font-size: 20px;
+}
+
+#team #members{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    padding: 15px 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #DBCAE3;
+}
+
+.team-con{
+    height: fit-content;
+    width: 178px;
+    margin: 20px 20px;
+}
+
+.team-con img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+
+.team-con h3, .team-con h4{
+    padding: 10px 0px 5px;
+    width: fit-content;
+    margin: auto;
+}
+
+.team-con h3{
+    font-size: 16px;
+}
+
+#faq{
+    background-color: var(--color-theme);
+    color: #fff;
+    padding: 10px 60px;
+
+}
+
+#faq h1{
+    padding: 25px 0px;
+    min-width: 30%;
+    font-size: 22px;
+}
+
+#faq .qna .questions{
+    min-width: 200px;
+    width: 40%;
+    margin: 10px;
+}
+
+#faq .qna .questions h2{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+#faq .qna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer{
+    background-color: var(--color-theme);
+    padding: 20px 60px 5px;
+}
+
+#footer #insta{
+    height: 40px;
+}
+
+#footer .social{
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+#footer .social img{
+    height: 30px;
+    cursor: pointer
+}
+
+#footer p{
+    font-size: 16px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2%;
+}
+}
+
+@media (max-width: 900px) {
+    #header{
+        position: sticky;
+        padding: 8px 50px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        background-color: #f2f2f2;
+    }
+    
+    .logo{
+        height: 40px;
+    }
+    
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #yearCount{
+        color: var(--color-theme);
+        font-size: 14px;
+    }
+    
+    #hero-section h1{
+        padding: 30px 60px;
+        width: fit-content;
+        margin: auto;
+        font-size: 56px;
+        color: var(--color-theme);
+        text-align: center;
+    }
+    
+    #logo-para{
+        width: 60%;
+        text-align: center;
+        margin: 10px auto 50px;
+        font-size: 18px;
+        color: var(--color-theme);
+        font-weight: 500;
+    }
+    
+    #dive-in{
+        display: block;
+        padding: 10px 60px;
+        margin: auto;
+        font-size: 14px;
+        color: #fff;
+        background-color: #000;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    #app-section{
+        padding: 20px 60px;
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .app-desc{
+        width: 50%;
+        background-color: var(--color-theme);
+        padding: 35px 25px;
+        border-radius: 60px;
+        z-index: 10;
+        border: 0;
+        box-shadow: 4px 4px 15px rgba(28, 28, 28, 0.4);
+    }
+    
+    .app-desc h1{
+        color: #fff;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    .app-desc p{
+        min-height: 150px;
+        font-size: 14px;
+        color: #fff;
+        padding: 30px 0;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .dwn-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .dwn-btns{
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    
+    #dwn-app{
+        color: #fff;
+        background-color: #000;
+    }
+    
+    #use-web{
+        color: #000;
+    }
+    
+    #use-web:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .phn-con{
+        position: relative;
+        width: fit-content;
+    }
+    
+    .phn-con video{
+        position: relative;
+        top: 15px;
+        height: 600px;
+        width: 294px;
+        border-radius: 60px;
+    }
+    
+    .phn-con img{
+        z-index: 2;
+        position: absolute;
+    }
+    
+    #features .fe{
+        height: 180px;
+        width: 180px;
+        padding: 20px;
+        background-color: #DBCAE3;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    #features .fe img{
+        height: 55px;
+        width: 55px;
+    }
+    
+    #features .fe h1{
+        font-weight: 600;
+        font-size: 26px;
+    }
+    
+    #features .fe h3{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    #team h4, #team h1{
+        width: 80%;
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #team h3{
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    #team h4{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    #team h1{
+        color: var(--color-theme);
+        font-size: 18px;
+    }
+    
+    #team #members{
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+        padding: 15px 60px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #DBCAE3;
+    }
+    
+    .team-con{
+        height: fit-content;
+        width: 178px;
+        margin: 20px 20px;
+    }
+    
+    .team-con img{
+        height: 170px;
+        width: 170px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 10px;
+    }
+    
+    .team-con h3, .team-con h4{
+        padding: 10px 0px 5px;
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .team-con h3{
+        font-size: 16px;
+    }
+    
+    #faq{
+        background-color: var(--color-theme);
+        color: #fff;
+        padding: 10px 60px;
+    
+    }
+    
+    #faq h1{
+        padding: 25px 0px;
+        min-width: 30%;
+        font-size: 22px;
+    }
+    
+    #faq .qna .questions{
+        min-width: 200px;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    #faq .qna .questions h2{
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    
+    #faq .qna{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #footer{
+        background-color: var(--color-theme);
+        padding: 20px 60px 5px;
+    }
+    
+    #footer #insta{
+        height: 40px;
+    }
+    
+    #footer .social{
+        margin: 0px auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+    }
+    
+    #footer .social img{
+        height: 30px;
+    }
+    
+    #footer p{
+        font-size: 16px;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+        font-weight: 100;
+        letter-spacing: 2%;
+    }
+}
+
+@media (max-width: 770px){
+        #header{
+            position: sticky;
+            padding: 8px 20px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            background-color: #f2f2f2;
+        }
+        
+        .logo{
+            height: 40px;
+        }
+        
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #yearCount{
+            color: var(--color-theme);
+            font-size: 14px;
+        }
+        
+        #hero-section h1{
+            padding: 30px 60px;
+            width: fit-content;
+            margin: auto;
+            font-size: 50px;
+            color: var(--color-theme);
+            text-align: center;
+        }
+        
+        #logo-para{
+            width: 80%;
+            text-align: center;
+            margin: 10px auto 50px;
+            font-size: 16px;
+            color: var(--color-theme);
+            font-weight: 500;
+        }
+        
+        #dive-in{
+            display: block;
+            padding: 10px 60px;
+            margin: auto;
+            font-size: 12px;
+            color: #fff;
+            background-color: #000;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        #app-section{
+            padding: 20px 20px;
+        }
+        
+        .app-desc{
+            margin: auto;
+            width: 100%;
+            background-color: var(--color-theme);
+            padding: 20px 10px;
+            border-radius: 50px;
+            z-index: 10;
+            border: 0;
+            box-shadow: 2px 2px 10px rgba(28, 28, 28, 0.4);
+        }
+        
+        .app-desc h1{
+            color: #fff;
+            width: fit-content;
+            margin: auto;
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        .app-desc p{
+            min-height: 100px;
+            font-size: 12px;
+            color: #fff;
+            padding: 20px 0;
+            width: 95%;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .dwn-section{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .dwn-btns{
+            padding: 10px 10px;
+            border-radius: 10px;
+            border: 0;
+            cursor: pointer;
+            font-size: 10px;
+        }
+        
+        #dwn-app{
+            color: #fff;
+            background-color: #000;
+        }
+        
+        #use-web{
+            color: #000;
+        }
+        
+        #use-web:hover{
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        .phn-con{
+            display: none;
+        }
+    
+        #features .fe{
+            height: 120px;
+            width: 120px;
+            padding: 20px;
+            background-color: #DBCAE3;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        #features .fe img{
+            height: 40px;
+            width: 40px;
+        }
+        
+        #features .fe h1{
+            font-weight: 600;
+            font-size: 18px;
+        }
+        
+        #features .fe h3{
+            font-size: 10px;
+            font-weight: 400;
+        }
+        
+        #team h4, #team h1{
+            width: 80%;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        #team h3{
+            font-weight: 800;
+            font-size: 12px;
+        }
+    
+        #team h4{
+            font-weight: 500;
+            font-size: 12px;
+        }
+        
+        #team h1{
+            color: var(--color-theme);
+            font-size: 14px;
+        }
+        
+        #team #members{
+            margin-top: 10px;
+            display: flex;
+            width: 100%;
+            padding: 5px 20px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background-color: #DBCAE3;
+            align-items: center;
+        }
+        
+        .team-con{
+            height: fit-content;
+            width: 145px;
+            margin: 8px 5px;
+        }
+        
+        .team-con img{
+            height: 145px;
+            width: 145px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 10px;
+        }
+        
+        .team-con h3, .team-con h4{
+            padding: 10px 0px 5px;
+            width: fit-content;
+            margin: auto;
+        }
+        
+        .team-con h3{
+            font-size: 16px;
+        }
+        
+        #faq{
+            background-color: var(--color-theme);
+            color: #fff;
+            padding: 10px 60px;
+        
+        }
+        
+        #faq h1{
+            padding: 20px 0px;
+            min-width: 30%;
+            font-size: 20px;
+        }
+        
+        #faq .qna .questions{
+            min-width: 200px;
+            width: 80%;
+            margin: 10px;
+        }
+        
+        #faq .qna .questions h2{
+            padding: 10px 0px;
+            font-size: 16px;
+        }
+        
+        #faq .qna{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        #footer{
+            background-color: var(--color-theme);
+            padding: 20px 60px 5px;
+        }
+        
+        #footer #insta{
+            height: 40px;
+        }
+        
+        #footer .social{
+            margin: 0px auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 90%;
+        }
+        
+        #footer .social img{
+            height: 25px;
+            cursor: pointer;
+        }
+        
+        #footer p{
+            font-size: 16px;
+            width: fit-content;
+            text-align: center;
+            margin: auto;
+            color: #fff;
+            font-weight: 100;
+            letter-spacing: 2%;
+        }
+        }
+}
