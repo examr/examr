@@ -3,7 +3,7 @@
 
 
 ### Website 🌐
-Under Development
+https://examr.github.io/
 
 
 #### Description 
